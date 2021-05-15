@@ -2,35 +2,64 @@ function verificar(){
     var mes = document.querySelector('input#month')
     var dia = document.querySelector('input#day')
     var res = document.querySelector('div#res')
+    var img = document.getElementById('pic')
+    var name = document.querySelector('div#name')
     if (mes.value == 1 || mes.value == 8){
         if (mes.value == 0 || mes.value > 12){
             window.alert('[ERRO] Data inválida')
         }else if (dia.value == 1 || dia.value == 9 || dia.value == 17){
-            res.innerHTML = 'Você é Ground Eletric'
+            res.innerHTML = 'Você é Ground Eletric!'
+            img.src = 'images/stunfisk.png'
+            name.innerHTML = 'Stunfisk!'
+            document.body.style.background = '#F7DD72'
         }else if (dia.value == 2 || dia.value == 10 || dia.value == 21){
-            res.innerHTML = 'Você é Ground Poison'
+            res.innerHTML = 'Você é Ground Poison!'
+            img.src = 'images/nidoking.png'
+            name.innerHTML = 'Nidoking!'
         }else if (dia.value == 3 || dia.value == 24){
-            res.innerHTML = 'Você é Ground Normal'
+            res.innerHTML = 'Você é Ground Normal!'
+            img.src = 'images/diggersby.png'
+            name.innerHTML = 'Diggersby!'
         }else if (dia.value == 4 || dia.value == 12 || dia.value == 23){
-            res.innerHTML = 'Você é Ground Dark'
+            res.innerHTML = 'Você é Ground Dark!'
+            img.src = 'images/krookodile.png'
+            name.innerHTML = 'Krookodile!'
         }else if (dia.value == 5 || dia.value == 27){
-            res.innerHTML = 'Você é Ground Dragon'
+            res.innerHTML = 'Você é Ground Dragon!'
+            img.src = 'images/garchomp.png'
+            name.innerHTML = 'Garchomp!'
         }else if (dia.value == 6 || dia.value == 16 || dia.value == 29){
-            res.innerHTML = 'Você é Ground Ice'
+            res.innerHTML = 'Você é Ground Ice!'
+            img.src = 'images/mamoswine.png'
+            name.innerHTML = 'Mamoswine!'
         }else if (dia.value == 7 || dia.value == 18){
-            res.innerHTML = 'Você é Ground Bug'
+            res.innerHTML = 'Você é Ground Bug!'
+            img.src = 'images/nincada.png'
+            name.innerHTML = 'Nincada!'
         }else if (dia.value == 8 || dia.value == 19 || dia.value == 30){
-            res.innerHTML = 'Você é Ground Fairy'
+            res.innerHTML = 'Você é Ground Fairy!'
+            img.src = 'images/pikachu.png'
+            name.innerHTML = 'Ops, parece que ainda não temos este tipo de pokemon, quem sabe na 9ª geração.'
         }else if (dia.value == 11|| dia.value == 22){
-            res.innerHTML = 'Você é Ground Ghost'
+            res.innerHTML = 'Você é Ground Ghost!'
+            img.src = 'images/golurk.png'
+            name.innerHTML = 'Golurk!'
         }else if (dia.value == 13|| dia.value == 26){
-            res.innerHTML = 'Você é Ground Fire'
+            res.innerHTML = 'Você é Ground Fire!'
+            img.src = 'images/camerupt.png'
+            name.innerHTML = 'Camerupt!'
         }else if (dia.value == 14|| dia.value == 25){
-            res.innerHTML = 'Você é Ground Grass'
+            res.innerHTML = 'Você é Ground Grass!'
+            img.src = 'images/torterra.png'
+            name.innerHTML = 'Torterra!'
         }else if (dia.value == 15|| dia.value == 28){
-            res.innerHTML = 'Você é Ground Water'
+            res.innerHTML = 'Você é Ground Water!'
+            img.src = 'images/swanpert.png'
+            name.innerHTML = 'Swanpert!'
         }else if (dia.value == 20|| dia.value == 31){
-            res.innerHTML = 'Você é Ground Rock'
+            res.innerHTML = 'Você é Ground Rock!'
+            img.src = 'images/larvitar.png'
+            name.innerHTML = 'Larvitar!'
         }else if (dia.value == 0 || dia.value > 31){
             window.alert('[ERRO] Data inválida')
         }

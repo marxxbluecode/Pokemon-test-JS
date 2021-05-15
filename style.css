@@ -24,11 +24,11 @@ section{
     background-color:  white;
     border-radius: 10px;
     padding: 1%;
-    width: 40%;
+    width: 42%;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
 }
 footer{
     text-align: center;
@@ -60,4 +60,16 @@ input{
 }
 #box{
     width: 100%;
+}
+#pic{
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#res{
+    text-align: center;
+}
+#name{
+    text-align: center;
 }
