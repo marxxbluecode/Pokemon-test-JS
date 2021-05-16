@@ -54,8 +54,6 @@ footer{
     }
     header{
         font-size: 1rem;
-        margin-bottom: 5%;
-        margin-top: 1% ;
     }
 }
 p{
@@ -76,6 +74,7 @@ input{
     #btn {
         width: 10%;
     }
+
 }
 @font-face {
     font-family: 'pokemon';
