@@ -7,7 +7,7 @@ function verificar(){
     if (mes.value == 1 || mes.value == 8){
         if (dia.value == 1 || dia.value == 9 || dia.value == 17){
             res.innerHTML = 'Você é Ground Eletric!'
-            img.src = 'images/stunfisk.png'
+            img.src = 'Images/stunfisk.png'
             name.innerHTML = 'Stunfisk!'
             document.body.style.background = '#C57341'
         }else if (dia.value == 2 || dia.value == 10 || dia.value == 21){
@@ -150,7 +150,7 @@ function verificar(){
             img.src = 'images/pikachu.png'
             name.innerHTML = 'Ops, parece que ainda não temos este tipo de pokemon, quem sabe na 9ª geração.'
         }else if (dia.value == 3 || dia.value == 24){
-            res.innerHTML = 'Você é Normal Normal!'
+            res.innerHTML = 'Você é Normal!'
             img.src = 'images/meowth.png'
             name.innerHTML = 'Meowth!'
             document.body.style.background = '#FFE683'
