@@ -24,10 +24,12 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 @media (max-width: 768px){
     header{
         font-size: 3vw;
+        padding-top: 2%;
     }
 }
 .title{
@@ -46,6 +48,7 @@ header{
 @media (max-width: 425px){
     .title{
         font-size: 9vw;
+        padding-bottom: 1%;
     }
 }
 .subtitle{
@@ -79,7 +82,19 @@ section{
     letter-spacing: -2px;
     height: auto;
 }
-
+@media (max-width:600px) {
+    section{
+        font-size: calc(.5em + .5vw);
+        width: 60%;
+        height: 40%;
+    }
+    input{
+        width: 70%;
+    }
+    header{
+        font-size: 1.4rem;
+    }
+}
 
 footer{
     text-align: center;
@@ -91,18 +106,9 @@ footer{
     -webkit-text-stroke-width: 2px; /* largura da borda */
     -webkit-text-stroke-color: rgb(70, 142, 236); /* cor da borda */
 }
-@media (max-width:600px) {
-    section{
-        font-size: calc(.5em + .5vw);
-        width: 60%;
-        height: 40%;
-        padding: 2%;
-    }
-    input{
-        width: 70%;
-    }
-    header{
-        font-size: 1.4rem;
+@media (max-width: 425px){
+    footer{
+        padding-bottom: 2%;
     }
 }
 p{
